@@ -35,9 +35,9 @@ def main():
             task = input("Enter the task: ")
             todo_list.add_task(task)
         elif choice == '2':
-           if todo_list.tasks:
-            task_index = int(input("Enter task index to remove: ")) - 1
-            todo_list.remove_task(task_index)
+            if todo_list.tasks:
+             task_index = int(input("Enter task index to remove: ")) - 1
+             todo_list.remove_task(task_index)
            else:
                print("No tasks to remove!")
 
