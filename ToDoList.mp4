@@ -38,8 +38,8 @@ def main():
            if todo_list.tasks:
             task_index = int(input("Enter task index to remove: ")) - 1
             todo_list.remove_task(task_index)
-        else:
-            print("No tasks to remove!")
+           else:
+               print("No tasks to remove!")
 
 
         elif choice == '3':
